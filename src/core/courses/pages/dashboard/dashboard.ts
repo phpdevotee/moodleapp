@@ -79,7 +79,7 @@ export class CoreCoursesDashboardPage implements OnDestroy {
             this.searchEnabled = !this.coursesProvider.isSearchCoursesDisabledInSite();
             this.downloadCourseEnabled = !this.coursesProvider.isDownloadCourseDisabledInSite();
             this.downloadCoursesEnabled = !this.coursesProvider.isDownloadCoursesDisabledInSite();
-
+            this.downloadEnabled = true;
             this.switchDownload(this.downloadEnabled);
 
             this.loadSiteName();

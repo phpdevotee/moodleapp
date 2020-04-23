@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget id="online.httplab.sakili" version="3.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SAkili</name>
+    <description>SAkili LMS</description>
+    <author email="httplab2020@gmail.com" href="http://sakili.httplab.online">HTTP LAB</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -190,6 +190,14 @@
     <config-file parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED" target="*-Info.plist">
         <string>YES</string>
     </config-file>
-    <engine name="android" spec="8.0.0" />
     <engine name="ios" spec="5.0.1" />
+    <platform name="windows">
+        <icon src="resources/windows/icon/Square44x44Logo.png" target="Square44x44Logo" />
+        <icon src="resources/windows/icon/SmallTile.png" target="Square71x71Logo" />
+        <icon src="resources/windows/icon/Square150x150Logo.png" target="Square150x150Logo" />
+        <icon src="resources/windows/icon/Square310x310Logo.png" target="Square310x310Logo" />
+        <icon src="resources/windows/icon/Wide310x150Logo.png" target="Wide310x150Logo" />
+        <icon src="resources/windows/icon/StoreLogo.png" target="StoreLogo" />
+        <splash src="resources/windows/splash/Splash.png" target="SplashScreen" />
+    </platform>
 </widget>
